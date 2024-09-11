@@ -1,0 +1,3 @@
+ALTER TABLE persons
+ADD COLUMN edad VARCHAR(45) NULL AFTER surname;
+ADD COLUMN init_date VARCHAR(45) NULL AFTER edad;
