@@ -1,0 +1,6 @@
+SELECT Nombre, Ciudad 
+FROM guardar;
+-Con la primera linea busco las columnas en mi tabla, si el nombre de la columna tiene espacios tengo que 
+poner comillas, tambien puedo seleccionarlas sin importar mayusculas o minusculas.
+-Con la segunda linea selecciono la tabla donde deseo buscar las columnas.
+-Si quiero ver todas la columnas pongo un (*) en vez de los nombres.

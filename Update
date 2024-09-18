@@ -1,0 +1,8 @@
+-- Establece el valor 21 para la edad del registro de la table
+UPDATE persons SET edad = 21 WHERE id = 11
+
+-- Establece el valor 21 para la edad del registro de la table
+UPDATE persons SET edad = 20 WHERE ID = 11
+
+-- Establece el valor 21 para la edad del registro de la table
+UPDATE persons SET edad = 20, init_date '2020-10-12' WHERE id = 11

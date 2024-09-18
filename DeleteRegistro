@@ -1,0 +1,2 @@
+--Elimina el registro de la tabla "users" con identificador 
+DELETE FROM users WHERE id = 11;

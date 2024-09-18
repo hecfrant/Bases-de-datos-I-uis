@@ -1,0 +1,8 @@
+-- Insertar un registro con identificador, nombre y apellido en la tabla
+INSERT INTO persons (id, NAME, surname) VALUES (8, "María", "López");
+
+-- Insertar un registro con nombre y apellido en la tabla
+INSERT INTO persons (NAME, surname) VALUES ("Paco", "Pérez");
+
+-- Insertar un registro con identificador no correlativo, nombre y apellido en la tabla   ¿que es un identificador no correlativo?
+INSERT INTO persons (id, NAME, surname) VALUES (11,"El", "Merma")

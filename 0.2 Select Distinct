@@ -1,0 +1,5 @@
+SELECT DISTINCT pais 
+FROM guardar;
+--Con la primera linea busco las columnas en mi tabla, si pongo la palabra DISTINCT solo me va mostar los elementos que no se repitan en la columna.
+--Con la segunda linea selecciono la tabla donde deseo buscar las columnas.
+--Si quiero ver todas la columnas pongo un (*) en vez de los nombres.
